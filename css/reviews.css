@@ -1,0 +1,97 @@
+.reviews {
+    padding: 90rem 0;
+}
+
+.reviews .row {
+    position: relative;
+}
+
+.reviews .title {
+    margin: 0 15rem 40rem;
+}
+
+.reviews .title .pre-title {
+    letter-spacing: 0;
+}
+
+.reviews .title h3 {
+    text-transform: uppercase;
+}
+
+.reviews .reviews-slider {
+    position: relative;
+    width: 100%;
+    max-width: 1250rem;
+    margin: 0 auto;
+}
+
+.reviews .reviews-slider .reviews-raiting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16rem;
+}
+
+.reviews .reviews-slider .reviews-raiting svg {
+    width: 19rem;
+    margin: 0 1.5rem;
+}
+
+.reviews .reviews-slider .reviews-text {
+    font-family: 'Manrope';
+    font-size: 20rem;
+    font-weight: 300;
+    line-height: 30rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin: 0 0 20rem;
+}
+
+.reviews .reviews-slider .reviews-name {
+    font-size: 35rem;
+    font-weight: 300;
+    line-height: 42rem;
+    color: var(--blue-color);
+    text-align: center;
+}
+
+.reviews .reviews-slider .reviews-place {
+    font-family: 'Manrope';
+    font-size: 18rem;
+    font-weight: 300;
+    line-height: 22rem;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.reviews .swiper-button-prev {
+    position: absolute;
+    top: calc(67% - 19rem);
+    left: 30rem;
+    outline: none;
+}
+
+.reviews .swiper-button-prev:after, .reviews .swiper-button-next:after {
+    display: none !important;
+}
+
+.reviews .swiper-button-next {
+    position: absolute;
+    top: calc(67% - 19rem);
+    right: 30rem;
+    outline: none;
+}
+
+.reviews .swiper-button-prev svg, .reviews .swiper-button-next svg {
+    width: 21rem;
+}
+
+.reviews .swiper-button-prev svg path, .reviews .swiper-button-next svg path {
+    stroke: var(--beige-color);
+    transition: .3s;
+}
+
+.reviews .swiper-button-prev:hover svg path, .reviews .swiper-button-next:hover svg path {
+    stroke: var(--dark-color);
+}

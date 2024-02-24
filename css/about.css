@@ -1,0 +1,110 @@
+.about {
+    padding: 90rem 0 45rem;
+    overflow: hidden;
+}
+
+.about .row {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.about .about-info {
+    position: relative;
+    width: 65%;
+    margin: 0 0 0 -4%;
+    background-color: var(--blue-color);
+    padding: 110rem 0 120rem 120rem;
+    z-index: 3;
+}
+
+.about .about-info .title {
+    margin: 0 0 5rem;
+}
+
+.about .about-info .title .pre-title {
+    color: var(--beige-color);
+    max-width: 100%;
+    text-align: left;
+}
+
+.about .about-info .title h2 {
+    color: var(--white-color);
+    margin: 0;
+    text-align: left;
+}
+
+.about .about-info p {
+    max-width: 615rem;
+    font-family: 'Manrope';
+    font-size: 18rem;
+    font-weight: 300;
+    line-height: 27rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: var(--white-color);
+}
+
+.about .about-info p + p {
+    margin-top: 25rem;
+}
+
+.about .about-info:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -20rem;
+    top: -5rem;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 30rem;
+    border-left-width: 30rem;
+    border-bottom: 30rem solid var(--white-color);
+    transform: rotate(-45deg);
+    transition: .3s;
+}
+
+.about .about-info:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -20rem;
+    bottom: -5rem;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 30rem;
+    border-left-width: 30rem;
+    border-bottom: 30rem solid var(--white-color);
+    transform: rotate(135deg);
+    transition: .3s
+}
+
+.about .about-photo {
+    position: relative;
+    width: 39%;
+}
+.about .about-photo img.about-photo-1 {
+    position: absolute;
+    width: 49%;
+    top: 41%;
+    left: -32%;
+    z-index: 6;
+}
+
+.about .about-photo img.about-photo-2 {
+    position: absolute;
+    width: 105%;
+    top: 16%;
+    right: -12%;
+    z-index: 5;
+}
+
+.about .about-photo svg.about-photo-bg {
+    width: 94%;
+    height: auto;
+    top: 0;
+    left: -21%;
+    position: relative;
+    z-index: 4;
+}

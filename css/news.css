@@ -1,0 +1,108 @@
+.news {
+    padding: 45rem 0 90rem;
+}
+
+.news .title {
+    margin: 0 auto 30rem;
+}
+
+.news .news-main {
+    width: 45%;
+    margin: 0 15rem 0 0;
+}
+
+.news .news-main .news-main__image {
+    width: 100%;
+    height: 440rem;
+    overflow: hidden;
+    margin: 0 0 25rem;
+}
+
+.news .news-main .news-main__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center ;
+}
+
+.news .news-main .title {
+    max-width: 506rem;
+    margin: 0 auto;
+}
+
+.news .news-main .title .pre-title {
+    font-family: 'Manrope';
+    font-size: 16rem;
+    font-weight: 500;
+    line-height: 24rem;
+    color: var(--beige-color);
+    letter-spacing: 0.2em;
+    margin: 0 0 10rem;
+}
+
+.news .news-main .title h3 {
+    letter-spacing: 0;
+}
+
+.news .news-main .btn {
+    margin: 15rem auto 0;
+}
+
+.news .news-main p {
+    font-family: 'Manrope';
+    font-size: 18rem;
+    font-weight: 300;
+    line-height: 27rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.news .news-list {
+    width: calc(57% - 90rem);
+    margin: 0 0 0 30rem;
+    border-left: 1rem solid #C5C8CC;
+    padding-left: 45rem;
+}
+
+.news .news-list .news-list__single {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news .news-list .news-list__single .single-content {
+    width: calc(100% - 190rem);
+    max-width: 510rem;
+}
+
+.news .news-list .news-list__single .btn {
+    margin: auto 0 0 auto;
+}
+
+.news .news-list .news-list__single .single-content__date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 154rem;
+    height: 24rem;
+    margin: 0 0 10rem;
+    background-color: var(--blue-color);
+    font-family: 'Manrope';
+    font-size: 13rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--white-color);
+}
+.news .news-list .news-list__single .single-content h4 {
+    margin: 0 auto 15rem;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.news-delimiter {
+    width: 100%;
+    height: 1rem;
+    background-color: #C5C8CC;
+    margin: 30rem 0;
+}

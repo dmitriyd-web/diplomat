@@ -1,0 +1,45 @@
+.advanteges {
+    padding: 45rem 0 40rem;
+}
+
+.advanteges .title {
+    width: calc(100% - 30rem);
+    margin: 0 auto 20rem;
+}
+
+.advanteges .title .pre-title {
+    margin: 0 auto 10rem;
+    color: var(--beige-color);
+}
+
+.advanteges .title h2 {
+    max-width: 100%;
+    margin: 0 auto 36rem;
+}
+
+.advanteges .row {
+    justify-content: center;
+}
+
+.advanteges .advanteges-item {
+    width: calc((100% - 90rem)/3);
+    text-align: center;
+    margin: 0 15rem 50rem;
+}
+
+.advanteges .advanteges-item img {
+    width: 66rem;
+    margin: 0 auto 15rem;
+}
+
+.advanteges .advanteges-item p {
+    font-family: 'Forum';
+    max-width: 315rem;
+    font-size: 22rem;
+    font-weight: 400;
+    line-height: 26rem;
+    letter-spacing: 0.05em;
+    text-align: center;   
+    text-transform: uppercase; 
+    margin: 0 auto;
+}

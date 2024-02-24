@@ -1,0 +1,399 @@
+footer {
+    position: relative;
+    padding: 46rem 40rem 0;
+    background-color: #051C36;
+}
+footer:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -20rem;
+    top: -5rem;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 30rem;
+    border-left-width: 30rem;
+    border-bottom: 30rem solid var(--white-color);
+    transform: rotate(-45deg);
+    transition: .3s;
+}
+
+footer .container {
+    max-width: 1760rem;
+}
+
+footer .row {
+    align-items: flex-start;
+}
+
+footer .footer-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 74rem;
+}
+
+footer .footer-links a {
+    font-family: 'Manrope';
+    font-size: 18rem;
+    font-weight: 300;
+    line-height: 25rem;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    transition: .3s;
+}
+
+footer .footer-links a:hover {
+    color: var(--beige-color);
+}
+
+footer .footer-links a img {
+    width: 140rem;
+    margin: 0 190rem 0 60px;
+}
+
+footer .footer-image {
+    width: 25%;
+    margin: 0 auto 0 0;
+}
+
+footer .footer-image img {
+    max-width: 100%;
+}
+
+footer .footer-info {
+    width: 69%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .footer-info .footer-info__contacts {
+    width: 44%;
+    border-right: 1px solid #C5C8CC
+}
+
+footer .footer-info .footer-info__contacts .contacts-title {
+    font-family: 'Forum';
+    font-size: 22rem;
+    font-weight: 400;
+    line-height: 24rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin: 34rem 0 22rem;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+footer .footer-info .footer-info__contacts .contacts-phone {
+    display: block;
+    font-size: 50rem;
+    font-weight: 400;
+    line-height: 55rem;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #D9BCA5;
+    margin: 0 0 10rem;
+    transition: .3s;
+}
+
+footer .footer-info .footer-info__contacts .contacts-phone:hover {
+    color: var(--beige-color);
+}
+
+footer .footer-info .footer-info__contacts .contacts-mail {
+    display: block;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin: 0 0 12rem;
+    color: var(--white-color);
+    transition: .3s;
+}
+
+footer .footer-info .footer-info__contacts .contacts-mail:hover {
+    color: var(--beige-color);
+}
+
+footer .footer-info .footer-info__contacts .contacts-days {
+    font-family: 'Manrope';
+    font-size: 18rem;
+    font-weight: 400;
+    line-height: 25rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--white-color);
+    margin: 0 0 12rem;
+    transition: .3s;
+}
+
+footer .footer-info .footer-info__contacts .contacts-address {
+    font-family: 'Manrope';
+    font-size: 18rem;
+    font-weight: 400;
+    line-height: 25rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--white-color);
+    margin: 0 0 22rem;
+    transition: .3s;
+}
+
+footer .footer-info .footer-info__contacts .btn {
+    max-width: 218rem;
+}
+
+footer .footer-info .footer-info__contacts .contacts-socials {
+    display: flex;
+    margin: 64rem 0 0;
+}
+
+footer .footer-info .footer-info__contacts .contacts-socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+    height: 50rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin: 0 15rem 0 0;
+    transition: .3s;
+}
+
+footer .footer-info .footer-info__contacts .contacts-socials a svg path {
+    transition: .3s;
+}
+
+footer .footer-info .footer-info__contacts .contacts-socials a:hover {
+    background: var(--beige-color);
+}
+
+footer .footer-info .footer-info__contacts .contacts-socials a:hover svg path {
+    fill: #051C36;
+}
+
+footer .footer-info .footer-info__contacts .contacts-socials a.socials-link__vk svg {
+    width: 25rem;
+}
+
+footer .footer-info .footer-info__contacts .contacts-socials a.socials-link__telegram svg {
+    width: 25rem;
+}
+
+footer .footer-info .footer-info__links {
+    width: 56%;
+    padding: 0 0 0 7%;
+}
+
+footer .footer-info .footer-info__links .contacts-title {
+    font-family: 'Forum';
+    font-size: 22rem;
+    font-weight: 400;
+    line-height: 24rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin: 34rem 0 32rem;
+    text-transform: uppercase;
+    color: #D9BCA5;
+}
+
+footer .footer-info .footer-info__links a {
+    width: 540rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer .footer-info .footer-info__links a span {
+    width: 420rem;
+    font-family: 'Forum';
+    font-size: 18rem;
+    font-weight: 400;
+    line-height: 22rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-transform: uppercase;
+    margin: auto 0 auto auto;
+    color: var(--white-color);
+    transition: .3s;
+}
+
+footer .footer-info .footer-info__links a:hover span {
+    color: #D9BCA5;
+}
+
+footer .footer-info .footer-info__links a + a {
+    margin-top: 48rem;
+}
+
+footer .footer-info .footer-info__links a:hover span {
+    color: #D3B6A0;
+}
+
+footer .footer-info .footer-info__links a img {
+    width: 78rem;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 40rem 0 0;
+    border-top: 1px solid #C5C8CC;
+    padding: 35rem 0;
+}
+
+.footer-copyright p, .footer-copyright a {
+    font-family: 'Manrope';
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 19rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+footer .footer-mobile_contacts {
+    display: none;
+}
+
+footer .footer-mobile_contacts p, footer .footer-mobile_contacts a {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+footer .footer-mobile_contacts .mobile-phone svg {
+    width: 10px;
+    margin: 0 5px 0 5px;
+}
+
+footer .footer-mobile_contacts .mobile-phone svg path {
+    fill: var(--beige-color)
+}
+
+footer .footer-mobile_contacts .mobile-mail svg {
+    margin: 0 5px 0 0;
+}
+
+footer .footer-mobile_contacts .mobile-mail svg path {
+    fill: var(--beige-color)
+}
+
+footer .footer-mobile_contacts .mobile-time svg {
+    width: 15px;
+    margin: 0 5px 0 0;
+}
+
+footer .footer-mobile_contacts .mobile-time svg path {
+    fill: var(--beige-color)
+}
+
+footer .footer-mobile_contacts .mobile-location svg {
+    width: 16px;
+    margin: 0 5px 0 0;
+}
+
+footer .footer-mobile_contacts .mobile-location svg path {
+    fill: var(--beige-color)
+}
+
+footer .footer-mobile_contacts .mobile-vk svg {
+    width: 20px;
+    margin: 0 5px 0 0;
+}
+
+footer .footer-mobile_contacts .mobile-vk svg path {
+    fill: var(--beige-color)
+}
+
+footer .footer-mobile_contacts .mobile-telegram svg {
+    width: 20px;
+    margin: 0 5px 0 0;
+}
+
+footer .footer-mobile_contacts .mobile-telegram svg path {
+    fill: var(--beige-color)
+}
+
+footer .footer-mobile_contacts span {
+    font-size: 17px;
+    color: var(--white-color);
+}
+
+footer .footer-mobile_contacts .btn {
+    margin-top: 10px;
+}
+
+footer .footer-mobile__menu {
+    display: none;
+    margin: 20px 0 0;
+    padding: 10px 0 0;
+    border-top: 1px solid var(--white-color);
+}
+
+.footer-mobile__menu {
+    width: 100%;
+    padding: 10rem 15rem;
+}
+
+.footer-mobile__menu li {
+    position: relative;
+}
+
+.footer-mobile__menu a {
+    position: relative;
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 15rem;
+    letter-spacing: 0em;
+    padding: 10px 0;
+    text-align: left;
+    color: var(--white-color);
+} 
+
+.footer-mobile__menu .has-child:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 11px;
+    height: 6px;
+    top: 12px;
+    right: 0rem;
+    background-image: url(../images/mobile-menu-arrow-white.png);
+    background-size: cover;
+    transition: .3s;
+}
+.footer-mobile__menu .has-child.open-child:after {
+    transform: rotate(-180deg);
+}
+
+.footer-mobile__menu .has-child > ul {
+    display: none;
+    list-style-type: none;
+    padding: 0 0 0 20rem;
+}
+
+.footer-mobile__menu .has-child.open-child > ul {
+    display: block;
+}
+
+footer .footer-copyright .footer-info__text {
+    display: none;
+    align-items: center;
+}
+
+footer .footer-info svg {
+    margin: 0 5px 0 0;
+}
+
+footer .footer-info span {
+    font-size: 17px;
+    color: var(--white-color);
+}

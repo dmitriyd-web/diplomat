@@ -1,0 +1,71 @@
+.order {
+    position: relative;
+    padding: 40rem 0 90rem;
+}
+
+.order .order-bg-1 {
+    position: absolute;
+    top: 100rem;
+    left: 0;
+    width: 175rem;
+    height: auto;
+}
+
+.order .order-bg-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 373rem;
+    height: auto;
+}
+
+.order .title {
+    margin: 0 15rem 15rem;
+}
+
+.order .title img {
+    display: block;
+    width: 105rem;
+    margin: 0 auto 25rem;
+}
+
+.order .title p.pre-title {
+    letter-spacing: 0;
+}
+
+.order .title h2 {
+    max-width: 100%;
+}
+
+.order form {
+    width: 100%;
+    max-width: 804rem;
+    margin: 0 auto;
+}
+
+.order form input, .order form textarea {
+    width: 100%;
+    background-color: transparent;
+    font-family: Manrope;
+    font-size: 18rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: var(--grey-color);
+    margin: 0 auto 40rem;
+    padding: 20rem;
+    border-bottom: 1rem solid var(--beige-color);
+    outline: none;
+}
+
+.order form textarea {
+    height: 190rem;
+    margin: 0 0 54rem;
+}
+
+.order form input::placeholder, .order form textarea::placeholder {
+    color: var(--grey-color);
+}
+
+.order form .btn {
+    margin: 0 auto;
+}

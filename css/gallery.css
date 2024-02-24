@@ -1,0 +1,50 @@
+.gallery {
+    padding: 50rem 0;
+    background-color: #F7F2ED;
+    overflow: hidden;
+}
+
+.gallery h2 {
+    max-width: 100%;
+    margin: 0 auto 30rem;
+}
+
+.gallery p {
+    max-width: 1140rem;
+    letter-spacing: 0.05em;
+}
+
+.gallery .scroller {
+    display: flex;
+    margin-top: 30rem;
+    animation: scroll 80s var(--_animation-direction, forwards) linear infinite;
+}
+
+.gallery .scroller:nth-child(odd) {
+    --_animation-direction: reverse;
+}
+
+.gallery .scroller:hover {
+    animation-play-state: paused;
+}
+
+.gallery .scroller a {
+    width: 465rem;
+    margin-right: 30rem;
+}
+
+.gallery .scroller a img {
+    width: 100%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.gallery .scroller a img:hover {
+    transform: scale(1.05);
+}
+
+@keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+}
